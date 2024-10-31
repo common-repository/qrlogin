@@ -1,0 +1,265 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: qrLogin_wp\n"
+"POT-Creation-Date: 2017-10-28 08:02+0200\n"
+"PO-Revision-Date: 2017-10-28 08:05+0200\n"
+"Last-Translator: \n"
+"Language-Team: morry\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: qrlogin.php\n"
+"X-Poedit-SearchPathExcluded-0: nbproject\n"
+"X-Poedit-SearchPathExcluded-1: qrl\n"
+"X-Poedit-SearchPathExcluded-2: ajaxqrlogin.js\n"
+
+#: qrlogin.php:85 qrlogin.php:187 qrlogin.php:341
+msgid "Settings"
+msgstr "Настройки"
+
+#: qrlogin.php:158 qrlogin.php:253
+msgid "Scan in"
+msgstr "Отсканируйте в"
+
+#: qrlogin.php:175
+msgid ""
+"Use the <a href=\"http://qrlogin.info\" target=\"_blank\">qrLogin</a> app to "
+"scan the QR Code, or just tap the code on your phone.<br/>Wait"
+msgstr ""
+"Отсканируйте код в программе <a href=‘http://qrlogin.info' "
+"target=‘_blank’>qrLogin</a>, или «тапните» на нем на Вашем телефоне.<br/"
+">Ожидание"
+
+#: qrlogin.php:178
+msgid ""
+"The timeout for logging from <a href=\"http://qrlogin.info\" target=\"_blank"
+"\">qrLogin</a> app has expired.<br/>Refresh page to start waiting again."
+msgstr ""
+"Таймаут ожидания входа из программы <a href=‘http://qrlogin.info’ "
+"target=‘_blank’>qrLogin</a> истек. Обновите страницу для рестарта."
+
+#: qrlogin.php:191
+msgid "Registration QR-code"
+msgstr "Код для записи аккаунта"
+
+#: qrlogin.php:194
+msgid ""
+"For save account use the <a href=\"http://qrlogin.info\" target=\"_blank"
+"\">qrLogin</a> app to scan the QR Code, or just tap the code on your phone."
+msgstr ""
+"Для записи аккаунта, отсканируйте код в программе <a href=‘http://qrlogin."
+"info’ target=‘_blank’>qrLogin</a> или «тапните» на нем в Вашем телефоне."
+
+#: qrlogin.php:195
+msgid ""
+"Since we do not know your password, after scanning, you will have to enter "
+"the password on the phone.<br/>Or you can enter the current password in the "
+"box below and Refresh the QRCODE."
+msgstr ""
+"Поскольку мы не знаем Ваш пароль, то после сканирования, Вам придется ввести "
+"пароль на телефоне.<br/>Или Вы можете ввести текущий пароль в поле ниже и "
+"обновить QRCODE."
+
+#: qrlogin.php:196
+msgid ""
+"The password you entered is included in qrcode. If you make a mistake, the "
+"phone app will remember the wrong password and an error will occur when you "
+"log in."
+msgstr ""
+"В qrcode включен пароль, который Вы ввели. Если Вы ошиблись, то телефон "
+"запомнит не правильный пароль и при входе возникнет ошибка."
+
+#: qrlogin.php:200 qrlogin.php:202
+msgid "Current Password"
+msgstr "Текущий пароль"
+
+#: qrlogin.php:203
+msgid "Refresh QRCODE"
+msgstr "Обновить QRCODE"
+
+#: qrlogin.php:205
+msgid ""
+"If you do not want to enter the password on the phone, you must specify the "
+"current password."
+msgstr ""
+"Если Вы не хотите вводить пароль в телефоне, то Вы можете ввести его тут."
+
+#: qrlogin.php:209
+msgid "About"
+msgstr "О программе"
+
+#: qrlogin.php:214
+msgid ""
+"qrLogin is an authentication system based on the reading of the qr code by "
+"the mobile phone and the transfer of authentication data via the http / "
+"https protocol to the application or to a web resource."
+msgstr ""
+"qrLogin - система аутентификации, основанная на считывании qr-кода мобильным "
+"телефоном и передаче данных аутентификации по протоколу http/https в "
+"приложение или на веб-ресурс."
+
+#: qrlogin.php:346
+msgid "Identifier for"
+msgstr "Идентификатор для"
+
+#: qrlogin.php:350
+msgid "Delete http, https & www from identifier"
+msgstr "Удалять http, https и www из идентификатора"
+
+#: qrlogin.php:351
+msgid ""
+"We recommend using this option. Then, as the identifier for qrLogin, only "
+"the domain and path to your forum are used"
+msgstr ""
+"Рекомендуем использовать эту опцию. Тогда в качестве идентификатора для "
+"программы qrLogin будет использоваться только домен и путь к Вашему сайту"
+
+#: qrlogin.php:355
+msgid "Size of qrcode"
+msgstr "Размер кода"
+
+#: qrlogin.php:357
+msgid "Size of QRCODE in pixel (recommended 128)"
+msgstr "Задайте размер кода в пикселах (рекомендуемый 128)"
+
+#: qrlogin.php:361
+msgid "Foreground color"
+msgstr "Цвет кода"
+
+#: qrlogin.php:362
+msgid "Background color"
+msgstr "Цвет фона"
+
+#: qrlogin.php:366
+msgid ""
+"When specifying colors for the code, choose contrast combinations. "
+"Preferably dark on a light background."
+msgstr ""
+"Задавая цвета для кода, выбирайте контрастные сочетания. Предпочтительно "
+"темные на светлом фоне."
+
+#: qrlogin.php:370
+msgid "Timeout for wait logging, in minuts"
+msgstr "Таймаут ожидания входа, в минутах"
+
+#: qrlogin.php:372
+msgid ""
+"Timeout for logging from qrLogin. The value is set in minuts. Set \"0\" to "
+"not stop waiting."
+msgstr ""
+"Время ожидания входа с телефона. Задается в минутах. Установите значение  в "
+"«0», что бы не останавливать ожидание."
+
+#: qrlogin.php:376
+msgid "Server polling timeout, in seconds"
+msgstr "Период опроса сервера, в секундах"
+
+#: qrlogin.php:378
+msgid ""
+"Timeout between requests to the server. Set \"0\" to polling without delay."
+msgstr ""
+"Таймаут между запросами к серверу. Установите «0» для опроса без задержек."
+
+#: qrlogin.php:382
+msgid "Server polling duration, in  seconds"
+msgstr "Длительность опросов на сервере, в секундах"
+
+#: qrlogin.php:384
+msgid "Duration of polls on the server. Set \"0\" for short polling."
+msgstr "Длительность опросов на сервере. Установите «0» для коротких опросов."
+
+#: qrlogin.php:388
+msgid "Timeout for wait answer to phone, in seconds"
+msgstr "Таймаут ожидания ответа программе в телефоне, в секундах"
+
+#: qrlogin.php:390
+msgid "Timeout for answer to phone. The value is set in seconds."
+msgstr "Время ожидания ответа телефону."
+
+#~ msgid "Wait"
+#~ msgstr "Ожидание"
+
+#~ msgid ""
+#~ "!!! qrLogin does not work !!!<br/>No one of libraryes for exchange is not "
+#~ "installed.<br/>\n"
+#~ "    Please contact the administrator and enable \"System V\" (<a href = "
+#~ "http://php.net/manual/en/sem.installation.php>sysvmsg or sysvshm</a>) \n"
+#~ "    or \"Shared Memory PHP\" (<a href = http://php.net/manual/en/shmop."
+#~ "installation.php>shmop</a>)"
+#~ msgstr ""
+#~ "!!! qrLogin не работает !!!<br/>Ни одна из библиотек, используемых для "
+#~ "обмена не установлена.<br/>Пожалуйста, свяжитесь с администратором и "
+#~ "активируйте какую то из библиотк «System V» (<a href = http://php.net/"
+#~ "manual/en/sem.installation.php>sysvmsg или sysvshm</a>) или «Shared "
+#~ "Memory PHP» (<a href = http://php.net/manual/en/shmop.installation."
+#~ "php>shmop</a>)"
+
+#~ msgid ""
+#~ "!!! QRCODE library is not exists !!!<br/>qrLogin uses Google Api to "
+#~ "display qrcode - only black/white and with a field around (("
+#~ msgstr ""
+#~ "Библиотека QRCODE не установлена!!!<br/>qrLogin использует Google Api для "
+#~ "показа qrcode - только черно/белый и с полем вокруг(("
+
+#~ msgid ""
+#~ "With such a timeout, it will be checked whether there is a parcel from "
+#~ "the phone to the login. The value is set in hundreds of milliseconds, for "
+#~ "example, 5 is two requests per second, and 20 is one request in two "
+#~ "seconds."
+#~ msgstr ""
+#~ "С таким периодом будет проверятся нет ли посылки от телефона на вход. "
+#~ "Значение задается в сотнях милисекунд, например 5 это два запроса в "
+#~ "секунду, а 20 это один запрос в две секунды."
+
+#~ msgid "About qrLogin"
+#~ msgstr "О программе qrLogin"
+
+#~ msgid ""
+#~ "!!! qrLogin does not work !!!<br/>Library \"Shared Memory PHP\" (<a href "
+#~ "= http://php.net/manual/en/book.shmop.php>shmop</a>) is not installed."
+#~ msgstr ""
+#~ "qrLogin не работает!!!<br/>Библиотека «Управление разделяемой памятью "
+#~ "PHP» (<a href=http://php.net/manual/ru/book.shmop.php>shmop</a>) не "
+#~ "установлена!!!"
+
+#~ msgid "Position in the login screen"
+#~ msgstr "Расположение кода на странице логина"
+
+#~ msgid "In the standart message box"
+#~ msgstr "В стандартной сообщении"
+
+#~ msgid "At fixed position on the screen"
+#~ msgstr "Фиксированная позиция на экране"
+
+#~ msgid ""
+#~ "If you select this option, the code will be displayed at a fixed location "
+#~ "on the screen."
+#~ msgstr ""
+#~ "Если выбрать эту опцию, код будет показан в фиксированном месте экрана."
+
+#~ msgid "Location and view of the box with qrcode"
+#~ msgstr "Расположение и вид отображения кода"
+
+#~ msgid ""
+#~ "Set the parameters that determine the location on the screen. The syntax "
+#~ "\"fixed\". For example, the bottom right corner, without fillets: "
+#~ "\"rigth: 0%; bottom: 0%; padding: 5px\" ..."
+#~ msgstr ""
+#~ "Задайте параметры, определяющие расположение на экране. Синтаксис "
+#~ "«fixed». Например, правый нижний угол, без скруглений:»rigth: 0%; bottom: "
+#~ "0%; padding: 5px»…"
+
+#~ msgid "Color for fixed box"
+#~ msgstr "Цвет окошка"
+
+#~ msgid "Color for fixed box with qrcode"
+#~ msgstr "Цвет окошка для фиксированного отображения кода"
+
+#~ msgid "Easy for use"
+#~ msgstr "Просто до безобразия"
